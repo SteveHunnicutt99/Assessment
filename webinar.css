@@ -20,8 +20,6 @@ body p {
 }
 
 .date, .time {
-	display: inline-block;
-	vertical-align: top;
 	background-color: #71A1BE;
 	color: white;
 	text-align: center;
@@ -40,5 +38,43 @@ body p {
 }
 
 .date-time {
+	display: flex;
+}
+
+.presenter-bullets {
+	display: flex;
+}
+
+.presenter, .bullets {
 	
+}
+
+.presenter {
+	background-color: #05263A;
+	color: white;
+}
+
+.presenter img {
+	width: 80%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    position: relative;
+    padding-left: 20px;
+}
+ul li:before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    background-image: url('images/RGS_Hotlist_0617_CheckmarkBox.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
