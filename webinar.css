@@ -1,19 +1,44 @@
 body {
-	size: 14 em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.light-blue {
-	color: #71A1BE;
+body p {
+	font-family: "Lato", sans-serif;
+	margin-bottom: 1em;;
 }
 
-.medium-blue {
+.headline {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.headline em {
 	color: #005282;
 }
 
-.dark-blue {
-	color: #05263A;
+.date, .time {
+	display: inline-block;
+	vertical-align: top;
+	background-color: #71A1BE;
+	color: white;
+	text-align: center;
 }
 
-.pink {
-	color: #F58C99;
+.date {
+	width: 20%;
+}
+
+.date img {
+	width: 50%;
+}
+
+.time {
+	width: 75%;
+}
+
+.date-time {
+	
 }
