@@ -34,9 +34,19 @@ body p {
 .register-button {
 	background-color: #005282;
 	font-family: arial, sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
+	font-weight: bold;
 	color: white;
 	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 10px;
 }
 
 .date, .time {
