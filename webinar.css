@@ -53,10 +53,30 @@ body p {
 	background-color: #71A1BE;
 	color: white;
 	text-align: center;
+	font-size: 2rem;
 }
 
 .date img {
 	width: 50%;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.date em {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.date p {
+	padding-bottom: 1rem;
+}
+
+.time {
+	font-size: 3rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	line-height: 2.6rem;
 }
 
 .presenter {
@@ -65,7 +85,12 @@ body p {
 }
 
 .presenter img {
-
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
 }
 
 ul {
