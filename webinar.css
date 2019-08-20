@@ -1,12 +1,29 @@
 body p {
 	font-family: "Lato", sans-serif;
-	margin-bottom: 1em;;
+	margin-bottom: 1em;
+	width: 375px;
+	font-size: 62.5%
+}
+
+.lead-in {
+	text-align: center;
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+	box-sizing: border-box;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 2px solid #005282;
+	background-color: yellow;
 }
 
 .headline {
 	font-family: arial, sans-serif;
 	font-weight: bold;
 	text-align: center;
+	font-size: 2.3rem;
+	padding-left: .75rem;
+	padding-right: .75rem;
 }
 
 .headline em {
