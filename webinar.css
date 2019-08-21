@@ -218,8 +218,8 @@ ul li:before {
   	width: 60.25%;
   	margin-left: auto;
   	margin-right: auto;
-		border-top: 3px solid #005282;
-		padding-top: 1.5rem;
+	border-top: 3px solid #005282;
+	padding-top: 1.5rem;
   }
   
   .inputs {
@@ -228,8 +228,8 @@ ul li:before {
   	margin-right: auto;
   }
   
-	.date-time, .presenter-bullets {
-    display: flex;
+  .date-time, .presenter-bullets {
+	display: flex;
   }
   
   .date-time {
@@ -249,6 +249,14 @@ ul li:before {
   .time {
   	flex: 1 1 auto;
   	font-size: 2rem;
+  }
+  
+  #timeRemaining {
+  	padding-top: 4rem;
+  }
+  
+  ul li {
+  	font-size: 1rem;
   }
   
   .warning img {
