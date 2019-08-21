@@ -3,21 +3,26 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function updateTimeRemaining() {
+	// Get current date and the date and time of the webinar as instructed
 	var currentDate = new Date();
 	var webinarDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + 5, 0, 0, 0, 0);
 	
 	var dateInterval = Math.abs(webinarDate - currentDate) / 1000;
 	
+	// Calculate the days in the interval, then subtract them
 	var days = Math.floor(dateInterval / 86400);
 	dateInterval -= days * 86400;
 	
+	// same for hours
 	var hours = Math.floor(dateInterval / 3600) % 24;
 	dateInterval -= hours * 3600;
 	
 	var minutes = Math.floor(dateInterval / 60) % 60;
 	
+	// Update the time remaining on the page
 	document.getElementById("timeRemaining").innerText = days + " Days, " + hours + " hours, " + minutes + " minutes";
 	
+	// Then set a timeout to do it again in a minute
 	setTimeout(function () {
 		updateTimeRemaining();
 	}, 60*1000);
