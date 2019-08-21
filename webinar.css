@@ -174,12 +174,12 @@ ul li:before {
 	background-color: #F58C99;
 	text-align: center;
 	font-weight: bold;
-	font-size: 1.1rem;
+	font-size: 1.7rem;
 	line-height: 2rem;
 	color: white;
 	margin-top: 1.5rem;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 1.2rem;
+	padding-bottom: .5rem;
 }
 
 .warning img {
@@ -203,8 +203,12 @@ ul li:before {
     margin-right: auto;
   }
   
+  .lead-in {
+  	width: 35%;
+  }
+  
   .headline {
-  	width: 60%;
+  	width: 60.25%;
   	margin-left: auto;
   	margin-right: auto;
   }
