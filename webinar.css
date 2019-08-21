@@ -66,6 +66,10 @@ body p {
 	text-align: center;
 }
 
+.date {
+	padding-bottom: 2rem;
+}
+
 .date img {
 	width: 50%;
 	padding-top: 1rem;
@@ -92,7 +96,7 @@ body p {
 
 #timeRemaining {
 	font-size: 2rem;
-	padding-top: 3rem;
+	padding-top: 1rem;
 }
 
 .presenter, .bullets {
@@ -103,6 +107,7 @@ body p {
 	background-color: #05263A;
 	color: white;
 	text-align: center;
+	padding-bottom: 2rem;
 }
 
 .presenter img {
@@ -223,7 +228,7 @@ ul li:before {
   	margin-right: auto;
   }
   
-   .date-time, .presenter-bullets {
+	.date-time, .presenter-bullets {
     display: flex;
   }
   
