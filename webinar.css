@@ -145,3 +145,24 @@ ul li:before {
     left: 5%;
     transform: translateY(-20%);
 }
+
+.warning {
+	background-color: #F58C99;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1rem;
+	line-height: 2rem;
+	color: white;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.imperative {
+	background-color: #05263A;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.1rem;
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
