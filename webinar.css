@@ -82,6 +82,7 @@ body p {
 .presenter {
 	background-color: #05263A;
 	color: white;
+	text-align: center;
 }
 
 .presenter img {
@@ -91,6 +92,22 @@ body p {
 	margin-right: auto;
 	padding-top: 3rem;
 	padding-bottom: 1rem;
+
+}
+
+.presenter em {
+	font-style: italic;
+	font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	line-height: 1.7rem;
+}
+
+.presenter strong {
+	font-weight: bold;
+	font-size: 1.7rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 ul {
