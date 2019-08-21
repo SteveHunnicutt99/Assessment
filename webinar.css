@@ -4,34 +4,6 @@ body p {
 	font-size: 62.5%
 }
 
-@media screen and (min-width: 40.5em) {
-  .container {
-    max-width: 55rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .headline {
-  	width: 60%;
-  	margin-left: auto;
-  	margin-right: auto;
-  }
-  
-  .inputs {
-  	width: 40%;
-  	margin-left: auto;
-  	margin-right: auto;
-  }
-  
-   .date-time, .presenter-bullets {
-    display: flex;
-  }
-  
-  .date-time {
-  	margin-bottom: 1rem;
-  }
-}
-
 .lead-in {
 	width: 80%;
 	margin-left: auto;
@@ -86,7 +58,6 @@ body p {
 	background-color: #71A1BE;
 	color: white;
 	text-align: center;
-	font-size: 2rem;
 }
 
 .date img {
@@ -102,8 +73,7 @@ body p {
 
 .date p {
 	padding-bottom: 1rem;
-	flex: 0 0 auto;
-	width: 100%;
+	font-size: 1rem;
 }
 
 .time {
@@ -112,7 +82,6 @@ body p {
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	line-height: 2.6rem;
-	flex: 1 1 auto;
 }
 
 .presenter, .bullets {
@@ -148,6 +117,10 @@ body p {
 	font-size: 1.7rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+.bullets {
+	background-color: whitesmoke;
 }
 
 .bullets h1 {
@@ -198,6 +171,10 @@ ul li:before {
 	padding-bottom: 1.5rem;
 }
 
+.warning img {
+	display: none;
+}
+
 .imperative {
 	background-color: #05263A;
 	text-align: center;
@@ -206,4 +183,55 @@ ul li:before {
 	color: white;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 40.5em) {
+  .container {
+    max-width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .headline {
+  	width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .inputs {
+  	width: 40%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+   .date-time, .presenter-bullets {
+    display: flex;
+  }
+  
+  .date-time {
+  	margin-bottom: 1rem;
+  }
+  
+  .date {
+  	margin-right: 1rem;
+	flex: 0 0 auto;
+  	width: 35%;
+  }
+  
+  .date img {
+  	width: 40%;
+  }
+  
+  .time {
+  	flex: 1 1 auto;
+  	font-size: 2rem;
+  }
+  
+  .warning img {
+  	display: inline;
+  	width: 3rem;
+  	height: 3rem;
+	vertical-align: middle;
+	padding-right: 1rem;
+  }
 }
