@@ -90,6 +90,11 @@ body p {
 	line-height: 2.6rem;
 }
 
+#timeRemaining {
+	font-size: 2rem;
+	padding-top: 3rem;
+}
+
 .presenter, .bullets {
 	flex: 1 1 0;
 }
