@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="reset.css" type="text/css" />
 <link rel="stylesheet" href="webinar.css" type="text/css" />
+<script src="webinar.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container">
@@ -18,8 +19,8 @@ Jim Rickards&#8217; Presents&#8230;</p>
 </div>
 
 <div class="inputs">
-	<input type="checkbox" name="register" value="yes" checked />I would like to receive a free newsletter<br>
-	<button class="register-button" type="button">Register for this FREE live Webinar Here!</button>
+	<input type="checkbox" name="register1" value="yes" checked onchange="sameBox(this)" />I would like to receive a free newsletter<br>
+	<button class="register-button" type="button" onclick="submitRegistration()">Register for this FREE live Webinar Here!</button>
 </div>
 
 <div class="date-time">
@@ -57,12 +58,11 @@ Jim Rickards&#8217; Presents&#8230;</p>
 
 <p class="warning"><img src="images/RGS_Hotlist_0617_Warning.png" />WARNING: SPACE IS LIMITED &amp; THESE LIVE TRAININGS ALWAYS FILL UP</p>
 
-
 <p class="imperative">Claim your spot below before it&#8217;s too late!</p>
 
 <div class="inputs">
-	<input type="checkbox" name="register" value="yes" checked />I would like to receive a free newsletter<br>
-	<button class="register-button" type="button">YES! Reserve My Spot Now! &gt;&gt;</button>
+	<input type="checkbox" name="register2" value="yes" checked onchange="sameBox(this)"/>I would like to receive a free newsletter<br>
+	<button class="register-button" type="button" onclick="submitRegistration()">YES! Reserve My Spot Now! &gt;&gt;</button>
 </div>
 </div>
 </body>
