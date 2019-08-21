@@ -50,8 +50,14 @@ body p {
 	margin-left: .5rem;
 	margin-right: .5rem;
 	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	border-radius: 10px;
+}
+
+.response {
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 2em;
 }
 
 .date, .time {
