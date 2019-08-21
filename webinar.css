@@ -31,6 +31,11 @@ body p {
 	color: #005282;
 }
 
+.newsletter {
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+
 .register-button {
 	background-color: #005282;
 	font-family: arial, sans-serif;
