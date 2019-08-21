@@ -31,7 +31,7 @@ body p {
 	color: #005282;
 }
 
-.newsletter {
+.inputs {
 	text-align: center;
 	font-family: arial, sans-serif;
 }
@@ -54,11 +54,18 @@ body p {
 	border-radius: 10px;
 }
 
+@media screen and (min-width: 40.5em) {
+  .date-time, .presenter-bullets {
+    display: flex;
+  }
+}
+
 .date, .time {
 	background-color: #71A1BE;
 	color: white;
 	text-align: center;
 	font-size: 2rem;
+	flex: 1 1 0;
 }
 
 .date img {
@@ -82,6 +89,10 @@ body p {
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	line-height: 2.6rem;
+}
+
+.presenter, .bullets {
+	flex: 1 1 0;
 }
 
 .presenter {
