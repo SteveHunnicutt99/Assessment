@@ -4,6 +4,34 @@ body p {
 	font-size: 62.5%
 }
 
+@media screen and (min-width: 40.5em) {
+  .container {
+    max-width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .headline {
+  	width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .inputs {
+  	width: 40%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+   .date-time, .presenter-bullets {
+    display: flex;
+  }
+  
+  .date-time {
+  	margin-bottom: 1rem;
+  }
+}
+
 .lead-in {
 	width: 80%;
 	margin-left: auto;
@@ -12,9 +40,7 @@ body p {
 	font-size: 1.1rem;
 	line-height: 1.7rem;
 	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
 	margin-bottom: 1.5rem;
-	border-bottom: 3px solid #005282;
 }
 
 .headline {
@@ -24,7 +50,9 @@ body p {
 	font-size: 2.1em;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	padding-top: 1.5rem;
 	line-height: 1.7rem;
+	border-top: 3px solid #005282;
 }
 
 .headline em {
@@ -54,18 +82,11 @@ body p {
 	border-radius: 10px;
 }
 
-@media screen and (min-width: 40.5em) {
-  .date-time, .presenter-bullets {
-    display: flex;
-  }
-}
-
 .date, .time {
 	background-color: #71A1BE;
 	color: white;
 	text-align: center;
 	font-size: 2rem;
-	flex: 1 1 0;
 }
 
 .date img {
@@ -81,6 +102,8 @@ body p {
 
 .date p {
 	padding-bottom: 1rem;
+	flex: 0 0 auto;
+	width: 100%;
 }
 
 .time {
@@ -89,6 +112,7 @@ body p {
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	line-height: 2.6rem;
+	flex: 1 1 auto;
 }
 
 .presenter, .bullets {
@@ -169,6 +193,7 @@ ul li:before {
 	font-size: 1.1rem;
 	line-height: 2rem;
 	color: white;
+	margin-top: 1.5rem;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
