@@ -209,6 +209,7 @@ ul li:before {
   border-top: 3rem solid #05263A;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 40.5em) {
