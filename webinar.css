@@ -195,10 +195,21 @@ ul li:before {
 	background-color: #05263A;
 	text-align: center;
 	font-style: italic;
-	font-size: 1.1rem;
+	font-size: 2rem;
 	color: white;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 5rem solid transparent;
+  border-right: 5rem solid transparent;  
+  border-top: 3rem solid #05263A;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 40.5em) {
